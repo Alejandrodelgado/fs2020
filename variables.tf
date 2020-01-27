@@ -2,7 +2,7 @@ variable "vpc_name" {
   default = "vpc-fs2020-lab"
   description = "Specify a name for you VPC"
 }
-
+ 
 variable "vpc1_cidr" {
   default = "172.16.0.0/16"
   description = "Default CIDR for the VPC network"
