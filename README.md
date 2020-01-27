@@ -70,8 +70,11 @@ Each environment that you create will require a Workspace.
 
 2. Set your variables for the items in wish you choose to modify by entering a new value in the "Override value" textbox
 - **iaas_classic_username** - Enter your IaaS Username (Be sure to set this as Sensitive)
+      Users VPN Password ==>>>    IBMxxxx
 - **iaas_classic_api_key** - Enter your IaaS API Key (Be sure to set this as Sensitive)
+      Classic infrastructure API key
 - **ibmcloud_api_key** - Enter your PaaS/IBM Cloud API Key (Be sure to set this as Sensitive)
+      a created new one or reuse one
 - **ibmcloud_region** - Select the region in which you want to deploy the VPC into, default set to Dallas
 - **vpc_name** - Provide a name for your VPC, this will also be used to prefix some other resources
 - **vpc1_cidr** - Provide a valid CIDR block to use for your VPC
